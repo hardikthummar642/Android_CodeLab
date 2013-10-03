@@ -5,6 +5,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+import com.devfest.androidcodelab.Utils.Constants;
+import com.devfest.androidcodelab.Utils.RunTimeLog;
+
 import java.io.IOException;
 
 /**
@@ -42,6 +45,8 @@ public class SplashScreen_Activity extends Activity {
                }catch(InterruptedException iE){
 
                    //Log your Error
+                   RunTimeLog.log(RunTimeLog.ERROR, Constants.INTERRUPTED_EXCEPTION);
+
                }finally {
 
                    //Start a New Activity

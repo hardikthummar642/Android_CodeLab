@@ -3,6 +3,7 @@ package com.devfest.androidcodelab;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.Button;
 
 /**
@@ -12,7 +13,7 @@ import android.widget.Button;
  *
  */
 
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends Activity implements View.OnClickListener {
 
 
     //Declaration
@@ -25,6 +26,7 @@ public class WelcomeActivity extends Activity {
         setContentView(R.layout.welcome_activity);
 
         btnRegister = (Button)findViewById(R.id.btnRegister);
+        btnRegister.setOnClickListener(this);
         btnLogin = (Button) findViewById(R.id.btnLogin);
     }
 
@@ -35,5 +37,21 @@ public class WelcomeActivity extends Activity {
         getMenuInflater().inflate(R.menu.welcome, menu);
         return true;
     }
-    
+
+    @Override
+    public void onClick(View view) {
+
+        switch (view.getId()){
+
+            case R.id.btnRegister:
+                break;
+            case R.id.btnLogin:
+                break;
+
+            default:
+
+                break;
+
+        }
+    }
 }
