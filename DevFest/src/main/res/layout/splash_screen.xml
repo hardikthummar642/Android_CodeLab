@@ -6,11 +6,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".SplashScreen_Activity">
+    tools:context=".SplashScreen_Activity"
+    android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:src="@drawable/android"
+        android:contentDescription="@string/image_description"
+        />
 
 </RelativeLayout>
