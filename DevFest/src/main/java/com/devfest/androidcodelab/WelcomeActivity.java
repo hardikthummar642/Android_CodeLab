@@ -1,5 +1,6 @@
 package com.devfest.androidcodelab;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -28,6 +29,7 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
         btnRegister = (Button)findViewById(R.id.btnRegister);
         btnRegister.setOnClickListener(this);
         btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(this);
     }
 
 
@@ -44,8 +46,11 @@ public class WelcomeActivity extends Activity implements View.OnClickListener {
         switch (view.getId()){
 
             case R.id.btnRegister:
+
+                startActivity(new Intent(getApplicationContext(), RegisterActivity.class));
                 break;
             case R.id.btnLogin:
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 break;
 
             default:
