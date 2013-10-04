@@ -11,4 +11,6 @@ public class Constants {
 
     public static String INTERRUPTED_EXCEPTION = "An IE Exception occurred";
     public static String EXCEPTION = "An Exception Occurred";
+    public static String DATABASE_UPGRADE = "DataBase Version has been Upgraded";
+    public static String SQLITE_OPENDB_EXCEPTION = "Error occurred while trying to access the database";
 }
