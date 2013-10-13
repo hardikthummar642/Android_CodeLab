@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DevFest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_description">Image Description</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_register">Registration</string>
+    <string name="strNewUser">New to User? Click here.</string>
+    <string name="strLogin">Registered? Click here.</string>
+
+
+    <!-- Button Text -->
+    <string name="btnRegister">Register</string>
+    <string name="btnLogin">Login</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Text Text -->
+    <string name="textEmail">Email: </string>
+    <string name="textPassword">Password: </string>
+    <string name="textFullNames">Full Names: </string>
+    <string name="textLanguage">Coding Language: </string>
+    <string name="textPhoneNumber">Phone Number: </string>
+
+    <!-- Hint Text-->
+    <string name="hintEmail">devefest@android.com</string>
+    <string name="hitFullNames">DevFest Developer </string>
+    <string name="hitPhone">0724785464 </string>
+    <string name="hitLanguage">Python </string>
+    <string name="hitPassword">********</string>
+
+</resources>
